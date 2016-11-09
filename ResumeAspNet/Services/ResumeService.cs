@@ -1,4 +1,5 @@
 ﻿using System;
+using System.EnterpriseServices;
 using Fuzzyminds.ResumeAspNet.ResumeDto;
 
 namespace Fuzzyminds.ResumeAspNet.Services
@@ -7,7 +8,7 @@ namespace Fuzzyminds.ResumeAspNet.Services
     {
         public ResumeProfile GetResume()
         {
-            var co = new CompanyRecord() {Address = "66 Sale St", City = "Auckland", Country = "New Zealand"};
+            var co = new CompanyRecord() {Address = "66 Sale St", City = "Auckland", Country = "New Zealand", Name = "Trade Me Ltd"};
 
             ResumeProfile rp = new ResumeProfile();
             rp.PositionRecords.Add(new PositionRecord()
