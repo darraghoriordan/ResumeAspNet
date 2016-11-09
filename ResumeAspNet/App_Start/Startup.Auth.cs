@@ -1,14 +1,14 @@
 ﻿using System;
+using System.Configuration;
+using Fuzzyminds.ResumeAspNet.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using ResumeAspNet.Models;
-using System.Configuration;
 
-namespace ResumeAspNet
+namespace Fuzzyminds.ResumeAspNet
 {
     public partial class Startup
     {

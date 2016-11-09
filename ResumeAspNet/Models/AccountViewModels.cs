@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace ResumeAspNet.Models
+namespace Fuzzyminds.ResumeAspNet.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

@@ -1,9 +1,9 @@
-﻿using ResumeAspNet.Models;
+﻿using Fuzzyminds.ResumeAspNet.ResumeDto;
 
-namespace ResumeAspNet.Services
+namespace Fuzzyminds.ResumeAspNet.Services
 {
     public interface IResumeService
     {
-        ResumeModel GetResume();
+        ResumeProfile GetResume();
     }
 }

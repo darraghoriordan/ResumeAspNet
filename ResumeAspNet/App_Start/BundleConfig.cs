@@ -1,7 +1,6 @@
-﻿using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
-namespace ResumeAspNet
+namespace Fuzzyminds.ResumeAspNet
 {
     public class BundleConfig
     {

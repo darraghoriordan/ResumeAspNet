@@ -1,12 +1,12 @@
-﻿using ResumeAspNet.Services;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
+using Fuzzyminds.ResumeAspNet.Services;
 
-namespace ResumeAspNet.Controllers
+namespace Fuzzyminds.ResumeAspNet.Controllers
 {
     
     public class HomeController : Controller
     {
-        IResumeService _resumeService;
+        readonly IResumeService _resumeService;
 
         public HomeController(IResumeService resumeService)
         {

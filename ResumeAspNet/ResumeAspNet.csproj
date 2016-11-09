@@ -409,9 +409,13 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
-    <Compile Include="Models\ResumeModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResumeDto\CompanyRecord.cs" />
+    <Compile Include="ResumeDto\CourseRecord.cs" />
+    <Compile Include="ResumeDto\EducationRecord.cs" />
     <Compile Include="ResumeDto\PhoneNumber.cs" />
+    <Compile Include="ResumeDto\PositionRecord.cs" />
+    <Compile Include="ResumeDto\RecommendationRecord.cs" />
     <Compile Include="ResumeDto\ResumeProfile.cs" />
     <Compile Include="Services\IResumeService.cs" />
     <Compile Include="Services\ResumeService.cs" />
