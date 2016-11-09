@@ -301,4 +301,4 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-ResumeAspNet/Secrets.config
+#ResumeAspNet/Secrets.config
