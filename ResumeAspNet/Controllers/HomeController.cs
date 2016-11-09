@@ -1,16 +1,23 @@
 ﻿using System.Web.Mvc;
+using Fuzzyminds.ResumeAspNet.Services;
 
-namespace ResumeAspNet.Controllers
+namespace Fuzzyminds.ResumeAspNet.Controllers
 {
     
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        readonly IResumeService _resumeService;
+
+        public HomeController(IResumeService resumeService)
         {
-            var service = new ResumeAspNet.Services.ResumeService();
+            _resumeService = resumeService;
+        }
+
+        public ActionResult Index()
+        {         
 
             ViewBag.Title = "Darragh's Resume";
-            return View(service.GetResume());
+            return View(_resumeService.GetResume());
         }
     }
 }

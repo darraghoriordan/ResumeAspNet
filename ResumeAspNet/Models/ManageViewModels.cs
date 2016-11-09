@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
 
-namespace ResumeAspNet.Models
+namespace Fuzzyminds.ResumeAspNet.Models
 {
     public class IndexViewModel
     {

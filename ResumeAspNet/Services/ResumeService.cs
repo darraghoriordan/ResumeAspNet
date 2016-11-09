@@ -1,18 +1,35 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+using System.EnterpriseServices;
+using Fuzzyminds.ResumeAspNet.ResumeDto;
 
-namespace ResumeAspNet.Services
+namespace Fuzzyminds.ResumeAspNet.Services
 {
-    public class ResumeService
+    public class ResumeService : IResumeService
     {
-        public ResumeAspNet.Models.ResumeModel GetResume()
+        public ResumeProfile GetResume()
         {
-            return new Models.ResumeModel()
+            var co = new CompanyRecord() {Address = "66 Sale St", City = "Auckland", Country = "New Zealand", Name = "Trade Me Ltd"};
+
+            ResumeProfile rp = new ResumeProfile();
+            rp.PositionRecords.Add(new PositionRecord()
             {
-                ResumeContents = "Darragh's resume"
-            };
+                Company = co,
+                StartDate = new DateTime(2014, 10, 20),
+                EndDate = new DateTime(2015, 10, 20),
+                IsCurrent = false,
+                Summary = "Smashing things at tm",
+                Title = "Developer"
+            });
+            rp.PositionRecords.Add(new PositionRecord()
+            {
+                Company = co,
+                StartDate = new DateTime(2015, 10, 20),
+                EndDate = new DateTime(1900, 1, 1),
+                IsCurrent = true,
+                Summary = "Smashing things at tm",
+                Title = "Development Chapter Lead"
+            });
+            return rp;
         }
     }
 }

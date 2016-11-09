@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResumeAspNet", "ResumeAspNet\ResumeAspNet.csproj", "{892EEA74-9D5E-445A-9307-0645FF34ECF3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fuzzyminds.ResumeAspNet", "ResumeAspNet\Fuzzyminds.ResumeAspNet.csproj", "{892EEA74-9D5E-445A-9307-0645FF34ECF3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{973A6274-BB84-4206-8F52-DD1A4A70B646}"
 EndProject
