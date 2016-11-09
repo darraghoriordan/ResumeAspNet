@@ -411,6 +411,8 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\ResumeModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResumeDto\PhoneNumber.cs" />
+    <Compile Include="ResumeDto\ResumeProfile.cs" />
     <Compile Include="Services\IResumeService.cs" />
     <Compile Include="Services\ResumeService.cs" />
     <Compile Include="Startup.cs" />
