@@ -5,7 +5,7 @@ using System.Web;
 
 namespace ResumeAspNet.Services
 {
-    public class ResumeService
+    public class ResumeService : IResumeService
     {
         public ResumeAspNet.Models.ResumeModel GetResume()
         {
