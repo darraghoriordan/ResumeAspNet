@@ -1,11 +1,11 @@
-﻿@model Fuzzyminds.ResumeAspNet.ResumeDto.ResumeProfile
+﻿@model Fuzzyminds.ResumeAspNet.ResumeDto.ResumeRecord
 
-<div class="row">
-    @foreach (var p in Model.PositionRecords)
-    {<h4>@Html.Encode(p.Company.Name)</h4>
-        <p>
-          
-            @Html.Encode(p.Title)
-        </p>
-    }
-</div>
+    <div class="row">
+        @foreach (var p in Model.PositionRecords)
+        {
+            <h4>@Html.Encode(p.Company.Name)</h4>
+            <p>
+                @Html.Encode(p.Title)
+            </p>
+        }
+    </div>
