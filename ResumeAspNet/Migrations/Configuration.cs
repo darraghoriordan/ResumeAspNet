@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Data.Entity;
 using Fuzzyminds.ResumeAspNet.Models;
 using Fuzzyminds.ResumeAspNet.ResumeDto;
 

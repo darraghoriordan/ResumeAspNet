@@ -1,4 +1,6 @@
-﻿namespace Fuzzyminds.ResumeAspNet.ResumeDto
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Fuzzyminds.ResumeAspNet.ResumeDto
 {
     public class AwardRecord
     {

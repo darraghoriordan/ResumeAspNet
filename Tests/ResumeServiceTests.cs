@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
 using FluentAssertions;
+using Fuzzyminds.ResumeAspNet.Models;
 using Fuzzyminds.ResumeAspNet.Services;
+using Moq;
 
 namespace Tests
 {
@@ -15,7 +17,7 @@ namespace Tests
         [Test]
         public void can_get_a_resume()
         {
-            var resumeService = new ResumeService();
+            var resumeService = new ResumeService(new Mock<ApplicationDbContext>().Object);
             var result = resumeService.GetResume();
 
             result.Should().NotBeNull();
