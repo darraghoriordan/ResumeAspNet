@@ -10,7 +10,7 @@ namespace Fuzzyminds.ResumeAspNet.ResumeDto
         public string Address { get; set; }
         public string City { get; set; }
         public string Country { get; set; }
-
+        public string State { get; set; }
         public virtual ICollection<PositionRecord> PositionRecords { get; set; }
     }
 }

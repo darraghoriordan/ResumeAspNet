@@ -7,6 +7,15 @@ namespace Fuzzyminds.ResumeAspNet.ResumeDto
 {
     public class InterestRecord
     {
+        public InterestRecord(string name)
+        {
+            Name = name;
+        }
+
+        public InterestRecord()
+        {
+        }
+
         public int Id { get; set; }
         public string Name { get; set; }
 
