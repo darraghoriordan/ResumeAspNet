@@ -7,5 +7,11 @@
             <p>
                 @Html.Encode(p.Title)
             </p>
+            <p>
+                @Html.Encode(p.StartDate.ToString("yyyy MMMM")) to @Html.Encode(p.EndDate.GetValueOrDefault().ToString("yyyy MMMM"))
+            </p>
+            <p>
+                @Html.Encode(p.Summary)
+            </p>
         }
     </div>
