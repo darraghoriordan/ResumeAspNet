@@ -1,17 +1,19 @@
 ﻿@model Fuzzyminds.ResumeAspNet.ResumeDto.ResumeRecord
 
-    <div class="row">
-        @foreach (var p in Model.PositionRecords)
-        {
-            <h4>@Html.Encode(p.Company.Name)</h4>
-            <p>
-                @Html.Encode(p.Title)
-            </p>
-            <p>
-                @Html.Encode(p.StartDate.ToString("yyyy MMMM")) to @Html.Encode(p.EndDate.GetValueOrDefault().ToString("yyyy MMMM"))
-            </p>
-            <p>
-                @Html.Encode(p.Summary)
-            </p>
-        }
-    </div>
+<div class="row">
+    <h1>@Model.Name</h1>
+    <h2>Work History</h2>
+    @foreach (var p in Model.PositionRecords)
+    {
+        <h3>@Html.Encode(p.Company.Name)</h3>
+        <h4>
+            @Html.Encode(p.Title)
+        </h4>
+        <h5>
+            @Html.Encode(p.StartDateDisplay) to @Html.Encode(p.EndDateDisplay)
+        </h5>
+        <p>
+            @Html.Raw(CommonMark.CommonMarkConverter.Convert(p.Summary))
+        </p>
+    }
+</div>

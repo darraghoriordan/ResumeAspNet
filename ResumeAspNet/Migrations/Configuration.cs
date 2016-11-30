@@ -118,34 +118,34 @@ I have a huge interest in science, computing and technology in general. I am gen
                 {
                     Title = "Development Chapter Lead",
                     Summary = @"Helped business by providing technical expertise in areas such as...
-? Performing techincal due diligence for acquisition
-? Driving Summer of Tech intern engagement which resulted in attracting all of our top picks 
-? Performing internal audits of APIs and other software to drive technical architecture strategy and improvement
-? Performing technical interviews for roles in other locations and other departments
-? Interviewing for additional technical lead and managing all 8 developers while recruiting, I manage 5 developers now that we have two leads
-? Nominated for internal technical excellence award
+- Performing techincal due diligence for acquisition
+- Driving Summer of Tech intern engagement which resulted in attracting all of our top picks 
+- Performing internal audits of APIs and other software to drive technical architecture strategy and improvement
+- Performing technical interviews for roles in other locations and other departments
+- Interviewing for additional technical lead and managing all 8 developers while recruiting, I manage 5 developers now that we have two leads
+- Nominated for internal technical excellence award
 
 Actively developing reports by...
-? Peer programming and one on one teaching
-? Providing introductory courses for new hires and interns
-? Running a hackathon type event called Wrench Day for the motors organisation
-? Driving reports to spread their knowledge through tutorials and laboratories
-? Mentoring developers in other departments
-? Ensuring reports are using OKRs, PDPs and skills matrices to guide their work and learning
-? Encouraging and organising for reports to go to various conferences such as Codemania and Webstock
+- Peer programming and one on one teaching
+- Providing introductory courses for new hires and interns
+- Running a hackathon type event called Wrench Day for the motors organisation
+- Driving reports to spread their knowledge through tutorials and laboratories
+- Mentoring developers in other departments
+- Ensuring reports are using OKRs, PDPs and skills matrices to guide their work and learning
+- Encouraging and organising for reports to go to various conferences such as Codemania and Webstock
 
 Improving our product by...
-? Driving changes to move an internal windows forms application to a web based application
-? Writing scripts to make deploy process automatic and repeatable(saving ~2 hours/deploy)
-? Adding swagger to document our API
-? Adding alpha channel for deploying internal applications to selected users for UAT
-? Bringing our SQL schema into the code repository for auditing
-? Creating code review guidelines
-? Introducing unit testing,DI and actively updated solution with examples for devs to use
-? Helping our platform team perform site moves, backups and hardware crash recovery
-? Introducing miniprofiler to help developers uncover performance issues
-? Rewriting logging to reduce logs by 20 million/day and support splunk for monitoring
-? Driving a move to salesforce for our customer management and billing",
+- Driving changes to move an internal windows forms application to a web based application
+- Writing scripts to make deploy process automatic and repeatable(saving ~2 hours/deploy)
+- Adding swagger to document our API
+- Adding alpha channel for deploying internal applications to selected users for UAT
+- Bringing our SQL schema into the code repository for auditing
+- Creating code review guidelines
+- Introducing unit testing,DI and actively updated solution with examples for devs to use
+- Helping our platform team perform site moves, backups and hardware crash recovery
+- Introducing miniprofiler to help developers uncover performance issues
+- Rewriting logging to reduce logs by 20 million/day and support splunk for monitoring
+- Driving a move to salesforce for our customer management and billing",
                     Company = tradeMeCompany,
                     IsCurrent = true,
                     StartDate = new DateTime(2015, 9, 1, 1, 1, 1, DateTimeKind.Utc)
@@ -155,11 +155,11 @@ Improving our product by...
                     Title = "Developer",
                     Summary = @"I was a product developer on the Motors vertical, adding new product, fixing bugs. Typical .Net stack with a few different front ends - angularJS, bootstrap, Asp.Net MVC and webforms, gulp, teamcity, some VB, lots of SQL.
 
-? Scrum master for squad of 5
-? Shipped Video in listings for direct sellers
-? Shipped MotorWeb vehicle report integration product for direct customers
-? Shipped Pit Board analytics product for dealers
-? Shipped Pulse, an award winning FedEx day project providing data visualization of user interactions on Trade Me",
+- Scrum master for squad of 5
+- Shipped Video in listings for direct sellers
+- Shipped MotorWeb vehicle report integration product for direct customers
+- Shipped Pit Board analytics product for dealers
+- Shipped Pulse, an award winning FedEx day project providing data visualization of user interactions on Trade Me",
                     Company = tradeMeCompany,
                     StartDate = new DateTime(2014, 10, 11, 1, 1, 1, DateTimeKind.Utc),
                      EndDate = new DateTime(2015, 9, 1, 1, 1, 1, DateTimeKind.Utc)
@@ -169,20 +169,20 @@ Improving our product by...
                     Title = "Developer",
                     Summary = @"I was lead developer with one junior on autotrader.co.nz. It's a full Microsoft stack MVC site in C#.
 
-? Lead developer for autotrader.co.nz
-? Continuously added product features from the business while reducing tech debt and improving infrastructure
-? Added phone proxy product to hide customer phone numbers from scammers
-? Added new and improved existing advertising
-? Full upgrade for mobile site to latest jquery mobile
-? Added support for https across the entire site
-? Added support for white labelling the site to support new partners and advertisers
-? Moved all static content to CDN
-? Implemented move to Amazon Web Services cloud infrastructure
-? Automated the release process with Jenkins and moved build process to MSBuild
-? Started first automated tests for product with NUnit and Selenium
-? Got database schemas versioned in to source control
-? Played active role in implementing scrum, moving towards continuous delivery and reducing sprint length
-? Mentored junior developers and new team members",
+- Lead developer for autotrader.co.nz
+- Continuously added product features from the business while reducing tech debt and improving infrastructure
+- Added phone proxy product to hide customer phone numbers from scammers
+- Added new and improved existing advertising
+- Full upgrade for mobile site to latest jquery mobile
+- Added support for https across the entire site
+- Added support for white labelling the site to support new partners and advertisers
+- Moved all static content to CDN
+- Implemented move to Amazon Web Services cloud infrastructure
+- Automated the release process with Jenkins and moved build process to MSBuild
+- Started first automated tests for product with NUnit and Selenium
+- Got database schemas versioned in to source control
+- Played active role in implementing scrum, moving towards continuous delivery and reducing sprint length
+- Mentored junior developers and new team members",
                     Company = bauerMediaCompany,
                     StartDate = new DateTime(2013, 10, 11, 1, 1, 1, DateTimeKind.Utc),
                      EndDate = new DateTime(2014, 10, 11, 1, 1, 1, DateTimeKind.Utc)
@@ -190,11 +190,11 @@ Improving our product by...
                       new PositionRecord()
                 {
                     Title = "Career Break",
-                    Summary = @"? I flew to Egypt and rode my bicycle from Cairo to Cape Town as part of the 2013 Tour d'Afrique race. 
-? I rested the bum and decompressed in South Africa, travelling along the the garden route and southern coast to Durban and the Drakensbergs. I sailed a delivery yacht from Durban back to Cape Town.
-? I returned to Europe for a month to see some music, old friends and new sights.
-? Finally I flew to North America and fulfilled a long time wish of driving my motorcycle from Toronto to the Arctic circle in the Northwest Territories and 
-? 12, 000km of Canadian wilderness later I finished in Vancouver for a flight to Auckland and a life without winter!",
+                    Summary = @"- I flew to Egypt and rode my bicycle from Cairo to Cape Town as part of the 2013 Tour d'Afrique race. 
+- I rested the bum and decompressed in South Africa, travelling along the the garden route and southern coast to Durban and the Drakensbergs. I sailed a delivery yacht from Durban back to Cape Town.
+- I returned to Europe for a month to see some music, old friends and new sights.
+- Finally I flew to North America and fulfilled a long time wish of driving my motorcycle from Toronto to the Arctic circle in the Northwest Territories and 
+- 12, 000km of Canadian wilderness later I finished in Vancouver for a flight to Auckland and a life without winter!",
                     Company = travellingCompany,
                     StartDate = new DateTime(2012, 12, 12, 1, 1, 1, DateTimeKind.Utc),
                      EndDate = new DateTime(2013, 10, 12, 1, 1, 1, DateTimeKind.Utc)
@@ -202,7 +202,7 @@ Improving our product by...
                 new PositionRecord()
                 {
                     Title = "Developer / System integrator",
-                    Summary = @"?      Designed, developed and managed  system to securely track thousands of hardware samples, providing full oversight of global hardware testing activities.
+                    Summary = @"-      Designed, developed and managed  system to securely track thousands of hardware samples, providing full oversight of global hardware testing activities.
 ?	Integrated many external systems including Active Directory, Security badges, an automated sample transfer/mailing system and legacy Oracle databases.
 ?	Supported huge growth in RIM’s hardware portfolio and provided enormous benefit to the managers and staff including centralized process control, audit trails and real time reporting.
 ?	Designed APIs and tooling that allowed rapid integration of sample tracking and test data collection to test software.

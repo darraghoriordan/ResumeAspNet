@@ -69,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LinkedinHttpClient.cs" />
+    <Compile Include="PositionRecordTests.cs" />
     <Compile Include="ResumeServiceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
