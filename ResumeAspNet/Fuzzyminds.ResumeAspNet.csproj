@@ -435,6 +435,10 @@
     <Compile Include="Migrations\201611280945215_add general summary to main resume.Designer.cs">
       <DependentUpon>201611280945215_add general summary to main resume.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612050610376_superclass.cs" />
+    <Compile Include="Migrations\201612050610376_superclass.Designer.cs">
+      <DependentUpon>201612050610376_superclass.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -445,6 +449,7 @@
     <Compile Include="ResumeDto\AwardRecord.cs" />
     <Compile Include="ResumeDto\CompanyRecord.cs" />
     <Compile Include="ResumeDto\CourseRecord.cs" />
+    <Compile Include="ResumeDto\DisplayModelTemporalBase.cs" />
     <Compile Include="ResumeDto\EducationRecord.cs" />
     <Compile Include="ResumeDto\InterestRecord.cs" />
     <Compile Include="ResumeDto\PhoneNumberRecord.cs" />
@@ -553,6 +558,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611280945215_add general summary to main resume.resx">
       <DependentUpon>201611280945215_add general summary to main resume.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612050610376_superclass.resx">
+      <DependentUpon>201612050610376_superclass.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
