@@ -4,6 +4,6 @@ namespace Fuzzyminds.ResumeAspNet.Services
 {
     public interface IResumeService
     {
-        ResumeProfile GetResume();
+        ResumeRecord GetResume();
     }
 }

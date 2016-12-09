@@ -1,34 +1,35 @@
 ﻿using System;
 using System.EnterpriseServices;
+using System.Linq;
+using Fuzzyminds.ResumeAspNet.Models;
 using Fuzzyminds.ResumeAspNet.ResumeDto;
+using System.Data.Entity;
 
 namespace Fuzzyminds.ResumeAspNet.Services
 {
     public class ResumeService : IResumeService
     {
-        public ResumeProfile GetResume()
-        {
-            var co = new CompanyRecord() {Address = "66 Sale St", City = "Auckland", Country = "New Zealand", Name = "Trade Me Ltd"};
+        private readonly ApplicationDbContext _dbContext;
 
-            ResumeProfile rp = new ResumeProfile();
-            rp.PositionRecords.Add(new PositionRecord()
-            {
-                Company = co,
-                StartDate = new DateTime(2014, 10, 20),
-                EndDate = new DateTime(2015, 10, 20),
-                IsCurrent = false,
-                Summary = "Smashing things at tm",
-                Title = "Developer"
-            });
-            rp.PositionRecords.Add(new PositionRecord()
-            {
-                Company = co,
-                StartDate = new DateTime(2015, 10, 20),
-                EndDate = new DateTime(1900, 1, 1),
-                IsCurrent = true,
-                Summary = "Smashing things at tm",
-                Title = "Development Chapter Lead"
-            });
+        public ResumeService(ApplicationDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
+
+        public ResumeRecord GetResume()
+        {
+
+            ResumeRecord rp = _dbContext.ResumeRecords
+                .Include(r=> r.PhoneNumber)
+                .Include(r=> r.Interests)
+                .Include(r=> r.PositionRecords.Select(p=> p.Company))
+                .Include(r=> r.Recommendations)
+                .Include(r=> r.Skills)
+                .Include(r=> r.Awards)
+                .Include(r=> r.CourseRecords)
+                .Include(r=> r.EducationRecords)
+                .FirstOrDefault();
+        
             return rp;
         }
     }
