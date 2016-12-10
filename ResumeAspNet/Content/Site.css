@@ -6,6 +6,25 @@
     border-bottom: 1px solid #f3f3f3;
 
 }
+.navbar-toggle {
+        background: #3e69dc;
+    border: 0;
+    border-radius: 5em;
+    color: white;
+    font-size: 1rem;
+        font-weight: bold;
+    letter-spacing: 0.0625em;
+        text-transform: uppercase;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+        padding-bottom: 0.703125em;
+    padding-top: 0.703125em;
+}
+.nav > li > a {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 12px;
+}
 .navbar-collapse {
     margin-top: 1.5em;
 }
