@@ -6,7 +6,18 @@
     border-bottom: 1px solid #f3f3f3;
 
 }
+.navbar-collapse {
+    margin-top: 1.5em;
+}
+.navbar-default .navbar-nav > li > a {  
+     color: #2c313f;
+    font-size: 1rem;
+    font-weight: bold;
 
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #3e69dc;
+}
 .navbar-header {
     margin-top: 1.5em;
 }
