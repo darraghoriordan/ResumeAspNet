@@ -1,0 +1,36 @@
+﻿@model Fuzzyminds.ResumeAspNet.ResumeDto.ResumeRecord
+
+<div class="row">
+    <h1>@Model.Name</h1>
+    <p>
+        @Model.Location
+    </p>
+    <h2>Work History</h2>
+    @foreach (var p in Model.PositionRecords)
+    {
+        <h3>@Html.Encode(p.Company.Name)</h3>
+        <h4>
+            @Html.Encode(p.Title)
+        </h4>
+        <h5>
+            @Html.Encode(p.StartDateDisplay) to @Html.Encode(p.EndDateDisplay)
+        </h5>
+        <p>
+            @Html.Raw(CommonMark.CommonMarkConverter.Convert(p.Summary))
+        </p>
+    }
+    <h2>Education History</h2>
+    @foreach (var p in Model.EducationRecords)
+    {
+        <h3>@Html.Encode(p.SchoolName)</h3>
+        <h4>
+            @Html.Encode(p.Degree)
+        </h4>
+        <h5>
+            @Html.Encode(p.StartDateDisplay) to @Html.Encode(p.EndDateDisplay)
+        </h5>
+        <p>
+            @Html.Raw(CommonMark.CommonMarkConverter.Convert(p.Notes))
+        </p>
+    }
+</div>

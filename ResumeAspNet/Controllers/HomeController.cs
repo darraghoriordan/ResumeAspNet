@@ -17,6 +17,41 @@ namespace Fuzzyminds.ResumeAspNet.Controllers
 
         public ActionResult Index()
         {
+            return View();
+        }
+
+        public ActionResult ExternalRedirect(string name)
+        {
+            switch (name)
+            {
+                case "bitbucket":
+                    return Redirect("https://bitbucket.org/darragh/");
+                case "github":
+                     return Redirect("http://github.com/darraghoriordan");
+                case "blog":
+                    return Redirect("http://fuzzyminds.tech.blog");
+                case "linkedin":
+                    return Redirect("https://nz.linkedin.com/in/darraghoriordan");
+
+                default:
+                    return new HttpNotFoundResult();
+            }
+        }
+
+        public ActionResult Portfolio()
+        {
+            return View();
+        }
+        public ActionResult About()
+        {
+            return View();
+        }
+        public ActionResult Contact()
+        {
+            return View();
+        }
+        public ActionResult Resume()
+        {
             ViewBag.Title = "Darragh's Resume";
             return View(_resumeService.GetResume());
         }
