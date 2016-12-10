@@ -1,0 +1,247 @@
+{
+  "Id": 1,
+  "Name": "Darragh O'Riordan",
+  "Summary": "I am a senior software developer and systems integrator with experience in the telecommunications, pharmaceutical and consumer media industries. Using .Net, C# and MS SQL I create intuitive web and windows applications, libraries and tools for gathering and reporting business data. I have excellent interpersonal, organizational and customer relationship skills through my experience in various working environments in Ireland, the USA, Canada and New Zealand.\r\n\r\nSkills\r\n\r\nC# and VB.Net\r\nServer-side web - ASP.NET webforms and MVC, some Node.js - mainly for Yeoman\r\nWeb services – WCF, SOAP and RESTful, WebApi2\r\nClient-side web - HTML, XML, AJAX, JQuery, CSS, JavaScript, Angular, Bootstrap and gulp for keeping all together\r\nDatabases - Microsoft SQL Server and Oracle/PLSQL, Entity Framework, NHibernate and Dapper ORMs\r\nClient Native - Windows Forms and services\r\nSoftware change management - Perforce / SVN, Git, mercurial, Hudson\r\nHardware interfacing and integration - National Instruments mostly\r\n\r\nI have a huge interest in science, computing and technology in general. I am genuinely amazed at how computing has exploded in to our lives and I'm delighted to be a part of it.",
+  "Email": "darragh.oriordan@gmail.com",
+  "Photo": null,
+  "Location": null,
+  "PhoneNumber": {
+    "Id": 1,
+    "Type": 1,
+    "Number": 1234567
+  },
+  "LastModifiedTimestamp": "2016-11-28T10:10:37.09",
+  "Interests": [
+    {
+      "Id": 1,
+      "Name": "Travel",
+      "ResumeRecordId": 1
+    },
+    {
+      "Id": 2,
+      "Name": "Sailing",
+      "ResumeRecordId": 1
+    },
+    {
+      "Id": 3,
+      "Name": "Stand up paddle boarding",
+      "ResumeRecordId": 1
+    },
+    {
+      "Id": 4,
+      "Name": "Bicycling",
+      "ResumeRecordId": 1
+    },
+    {
+      "Id": 5,
+      "Name": "Camping",
+      "ResumeRecordId": 1
+    },
+    {
+      "Id": 6,
+      "Name": "Hiking",
+      "ResumeRecordId": 1
+    },
+    {
+      "Id": 7,
+      "Name": "Technology",
+      "ResumeRecordId": 1
+    },
+    {
+      "Id": 8,
+      "Name": "Playing Guitar",
+      "ResumeRecordId": 1
+    },
+    {
+      "Id": 9,
+      "Name": "Motorcycles",
+      "ResumeRecordId": 1
+    },
+    {
+      "Id": 10,
+      "Name": "Chocolate",
+      "ResumeRecordId": 1
+    },
+    {
+      "Id": 11,
+      "Name": "Beer",
+      "ResumeRecordId": 1
+    }
+  ],
+  "Skills": [],
+  "EducationRecords": [
+    {
+      "Id": 1,
+      "SchoolName": "Cork Institute of Technology",
+      "FieldOfStudy": "Applied Physics",
+      "Degree": "Bachelor of Science (Honors) in Computerised Instrumentation",
+      "Notes": "Finished first in class in 1st and final year. Achieved H1.1 grade",
+      "ResumeRecordId": 1,
+      "StartDate": "2004-10-12T01:01:01",
+      "StartDateDisplay": "2004 October",
+      "EndDateDisplay": "2008 October",
+      "EndDate": "2008-10-12T01:01:01"
+    },
+    {
+      "Id": 2,
+      "SchoolName": "Cork Institute of Technology",
+      "FieldOfStudy": "Electronic Engineering",
+      "Degree": "Certificate in Electronic Engineering",
+      "Notes": null,
+      "ResumeRecordId": 1,
+      "StartDate": "2001-10-12T01:01:01",
+      "StartDateDisplay": "2001 October",
+      "EndDateDisplay": "2004 October",
+      "EndDate": "2004-10-12T01:01:01"
+    }
+  ],
+  "CourseRecords": [],
+  "PositionRecords": [
+    {
+      "Id": 1,
+      "Title": "Development Chapter Lead",
+      "Company": {
+        "PositionRecords": [
+          {
+            "Id": 2,
+            "Title": "Developer",
+            "Summary": "I was a product developer on the Motors vertical, adding new product, fixing bugs. Typical .Net stack with a few different front ends - angularJS, bootstrap, Asp.Net MVC and webforms, gulp, teamcity, some VB, lots of SQL.\r\n\r\n- Scrum master for squad of 5\r\n- Shipped Video in listings for direct sellers\r\n- Shipped MotorWeb vehicle report integration product for direct customers\r\n- Shipped Pit Board analytics product for dealers\r\n- Shipped Pulse, an award winning FedEx day project providing data visualization of user interactions on Trade Me",
+            "IsCurrent": false,
+            "ResumeRecordId": 1,
+            "StartDate": "2014-10-11T01:01:01",
+            "StartDateDisplay": "2014 October",
+            "EndDateDisplay": "2015 September",
+            "EndDate": "2015-09-01T01:01:01"
+          }
+        ],
+        "Id": 1,
+        "Name": "Trade Me Ltd",
+        "Address": "66 Sale St",
+        "City": "Auckland Central",
+        "Country": "New Zealand",
+        "State": "Auckland"
+      },
+      "Summary": "Helped business by providing technical expertise in areas such as...\r\n- Performing techincal due diligence for acquisition\r\n- Driving Summer of Tech intern engagement which resulted in attracting all of our top picks \r\n- Performing internal audits of APIs and other software to drive technical architecture strategy and improvement\r\n- Performing technical interviews for roles in other locations and other departments\r\n- Interviewing for additional technical lead and managing all 8 developers while recruiting, I manage 5 developers now that we have two leads\r\n- Nominated for internal technical excellence award\r\n\r\nActively developing reports by...\r\n- Peer programming and one on one teaching\r\n- Providing introductory courses for new hires and interns\r\n- Running a hackathon type event called Wrench Day for the motors organisation\r\n- Driving reports to spread their knowledge through tutorials and laboratories\r\n- Mentoring developers in other departments\r\n- Ensuring reports are using OKRs, PDPs and skills matrices to guide their work and learning\r\n- Encouraging and organising for reports to go to various conferences such as Codemania and Webstock\r\n\r\nImproving our product by...\r\n- Driving changes to move an internal windows forms application to a web based application\r\n- Writing scripts to make deploy process automatic and repeatable(saving ~2 hours/deploy)\r\n- Adding swagger to document our API\r\n- Adding alpha channel for deploying internal applications to selected users for UAT\r\n- Bringing our SQL schema into the code repository for auditing\r\n- Creating code review guidelines\r\n- Introducing unit testing,DI and actively updated solution with examples for devs to use\r\n- Helping our platform team perform site moves, backups and hardware crash recovery\r\n- Introducing miniprofiler to help developers uncover performance issues\r\n- Rewriting logging to reduce logs by 20 million/day and support splunk for monitoring\r\n- Driving a move to salesforce for our customer management and billing",
+      "IsCurrent": true,
+      "ResumeRecordId": 1,
+      "StartDate": "2015-09-01T01:01:01",
+      "StartDateDisplay": "2015 September",
+      "EndDateDisplay": "Present",
+      "EndDate": null
+    },
+    {
+      "Id": 2,
+      "Title": "Developer",
+      "Company": {
+        "PositionRecords": [
+          {
+            "Id": 1,
+            "Title": "Development Chapter Lead",
+            "Summary": "Helped business by providing technical expertise in areas such as...\r\n- Performing techincal due diligence for acquisition\r\n- Driving Summer of Tech intern engagement which resulted in attracting all of our top picks \r\n- Performing internal audits of APIs and other software to drive technical architecture strategy and improvement\r\n- Performing technical interviews for roles in other locations and other departments\r\n- Interviewing for additional technical lead and managing all 8 developers while recruiting, I manage 5 developers now that we have two leads\r\n- Nominated for internal technical excellence award\r\n\r\nActively developing reports by...\r\n- Peer programming and one on one teaching\r\n- Providing introductory courses for new hires and interns\r\n- Running a hackathon type event called Wrench Day for the motors organisation\r\n- Driving reports to spread their knowledge through tutorials and laboratories\r\n- Mentoring developers in other departments\r\n- Ensuring reports are using OKRs, PDPs and skills matrices to guide their work and learning\r\n- Encouraging and organising for reports to go to various conferences such as Codemania and Webstock\r\n\r\nImproving our product by...\r\n- Driving changes to move an internal windows forms application to a web based application\r\n- Writing scripts to make deploy process automatic and repeatable(saving ~2 hours/deploy)\r\n- Adding swagger to document our API\r\n- Adding alpha channel for deploying internal applications to selected users for UAT\r\n- Bringing our SQL schema into the code repository for auditing\r\n- Creating code review guidelines\r\n- Introducing unit testing,DI and actively updated solution with examples for devs to use\r\n- Helping our platform team perform site moves, backups and hardware crash recovery\r\n- Introducing miniprofiler to help developers uncover performance issues\r\n- Rewriting logging to reduce logs by 20 million/day and support splunk for monitoring\r\n- Driving a move to salesforce for our customer management and billing",
+            "IsCurrent": true,
+            "ResumeRecordId": 1,
+            "StartDate": "2015-09-01T01:01:01",
+            "StartDateDisplay": "2015 September",
+            "EndDateDisplay": "Present",
+            "EndDate": null
+          }
+        ],
+        "Id": 1,
+        "Name": "Trade Me Ltd",
+        "Address": "66 Sale St",
+        "City": "Auckland Central",
+        "Country": "New Zealand",
+        "State": "Auckland"
+      },
+      "Summary": "I was a product developer on the Motors vertical, adding new product, fixing bugs. Typical .Net stack with a few different front ends - angularJS, bootstrap, Asp.Net MVC and webforms, gulp, teamcity, some VB, lots of SQL.\r\n\r\n- Scrum master for squad of 5\r\n- Shipped Video in listings for direct sellers\r\n- Shipped MotorWeb vehicle report integration product for direct customers\r\n- Shipped Pit Board analytics product for dealers\r\n- Shipped Pulse, an award winning FedEx day project providing data visualization of user interactions on Trade Me",
+      "IsCurrent": false,
+      "ResumeRecordId": 1,
+      "StartDate": "2014-10-11T01:01:01",
+      "StartDateDisplay": "2014 October",
+      "EndDateDisplay": "2015 September",
+      "EndDate": "2015-09-01T01:01:01"
+    },
+    {
+      "Id": 3,
+      "Title": "Developer",
+      "Company": {
+        "PositionRecords": [],
+        "Id": 2,
+        "Name": "Bauer Media",
+        "Address": "City Works Depot",
+        "City": "Auckland Central",
+        "Country": "New Zealand",
+        "State": "Auckland"
+      },
+      "Summary": "I was lead developer with one junior on autotrader.co.nz. It's a full Microsoft stack MVC site in C#.\r\n\r\n- Lead developer for autotrader.co.nz\r\n- Continuously added product features from the business while reducing tech debt and improving infrastructure\r\n- Added phone proxy product to hide customer phone numbers from scammers\r\n- Added new and improved existing advertising\r\n- Full upgrade for mobile site to latest jquery mobile\r\n- Added support for https across the entire site\r\n- Added support for white labelling the site to support new partners and advertisers\r\n- Moved all static content to CDN\r\n- Implemented move to Amazon Web Services cloud infrastructure\r\n- Automated the release process with Jenkins and moved build process to MSBuild\r\n- Started first automated tests for product with NUnit and Selenium\r\n- Got database schemas versioned in to source control\r\n- Played active role in implementing scrum, moving towards continuous delivery and reducing sprint length\r\n- Mentored junior developers and new team members",
+      "IsCurrent": false,
+      "ResumeRecordId": 1,
+      "StartDate": "2013-10-11T01:01:01",
+      "StartDateDisplay": "2013 October",
+      "EndDateDisplay": "2014 October",
+      "EndDate": "2014-10-11T01:01:01"
+    },
+    {
+      "Id": 4,
+      "Title": "Career Break",
+      "Company": {
+        "PositionRecords": [],
+        "Id": 3,
+        "Name": "Travelling",
+        "Address": "Africa",
+        "City": "Europe",
+        "Country": "North America",
+        "State": "Auckland"
+      },
+      "Summary": "- I flew to Egypt and rode my bicycle from Cairo to Cape Town as part of the 2013 Tour d'Afrique race. \r\n- I rested the bum and decompressed in South Africa, travelling along the the garden route and southern coast to Durban and the Drakensbergs. I sailed a delivery yacht from Durban back to Cape Town.\r\n- I returned to Europe for a month to see some music, old friends and new sights.\r\n- Finally I flew to North America and fulfilled a long time wish of driving my motorcycle from Toronto to the Arctic circle in the Northwest Territories and \r\n- 12, 000km of Canadian wilderness later I finished in Vancouver for a flight to Auckland and a life without winter!",
+      "IsCurrent": false,
+      "ResumeRecordId": 1,
+      "StartDate": "2012-12-12T01:01:01",
+      "StartDateDisplay": "2012 December",
+      "EndDateDisplay": "2013 October",
+      "EndDate": "2013-10-12T01:01:01"
+    },
+    {
+      "Id": 5,
+      "Title": "Developer / System integrator",
+      "Company": {
+        "PositionRecords": [],
+        "Id": 4,
+        "Name": "Blackberry Ltd",
+        "Address": "Waterloo",
+        "City": "Waterloo",
+        "Country": "Canada",
+        "State": "Ontario"
+      },
+      "Summary": "- Designed, developed and managed  system to securely track thousands of hardware samples, providing full oversight of global hardware testing activities.\r\n- Integrated many external systems including Active Directory, Security badges, an automated sample transfer/mailing system and legacy Oracle databases.\r\n- Supported huge growth in RIM’s hardware portfolio and provided enormous benefit to the managers and staff including centralized process control, audit trails and real time reporting.\r\n- Designed APIs and tooling that allowed rapid integration of sample tracking and test data collection to test software.\r\n- Improved throughput on RIMs new product programs by designing a service oriented, multilayer, secure, automated mailing system for transporting sensitive devices around the RIM campus.\r\n- Provided additional support for test software, which included upgrading test systems’ connection stacks to support a completely new mobile OS and refactoring code to reduce future maintenance.\r\n\r\n###### Additional Activities\r\n\r\n- Adhered to RIMs strict project execution methodology and documentation procedure.\r\n- 5s + 1 champion.\r\n- Member of the Health & Safety Committee(WSIB Certified).",
+      "IsCurrent": false,
+      "ResumeRecordId": 1,
+      "StartDate": "2009-03-12T01:01:01",
+      "StartDateDisplay": "2009 March",
+      "EndDateDisplay": "2012 December",
+      "EndDate": "2012-12-12T01:01:01"
+    },
+    {
+      "Id": 6,
+      "Title": "Developer Intern",
+      "Company": {
+        "PositionRecords": [],
+        "Id": 5,
+        "Name": "Zenith Technology Ltd",
+        "Address": "Ringaskiddy",
+        "City": "Ringaskiddy",
+        "Country": "Ireland",
+        "State": "Co Cork"
+      },
+      "Summary": "- Designed, developed and managed a custom ASP.NET learning management system to improve efficiency in administration of the training department for 100 worldwide employees.\r\n- Administered Windows Server including IIS and Microsoft SQL Server.\r\n- Created work estimations and task prioritization for management and compiled weekly progress reports.Consistently showed ability to self - manage.\r\n- Fixed bugs in VB.NET soft phase code for a new Emerson Delta V automation system.\r\n- Demonstrated flexibility in working hours and commitment.\r\n- Tested DeltaV Hardware, Graphics, Interlocks, Equipment modules and phases.\r\n- Created high quality GAMP documentation to perform the above testing.\r\n- Participated in factory acceptance testing directly with clients.\r\n- Supported intensive project work over summer months.\r\n- Practiced safety procedures for industrial environments.",
+      "IsCurrent": false,
+      "ResumeRecordId": 1,
+      "StartDate": "2007-04-12T01:01:01",
+      "StartDateDisplay": "2007 April",
+      "EndDateDisplay": "2008 September",
+      "EndDate": "2008-09-12T01:01:01"
+    }
+  ],
+  "Recommendations": [],
+  "Awards": []
+}

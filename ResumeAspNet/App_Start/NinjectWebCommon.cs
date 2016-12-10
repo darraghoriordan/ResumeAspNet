@@ -1,6 +1,7 @@
 using System;
 using System.Web;
 using Fuzzyminds.ResumeAspNet;
+using Fuzzyminds.ResumeAspNet.Services;
 using Microsoft.Web.Infrastructure.DynamicModuleHelper;
 using Ninject;
 using Ninject.Extensions.Conventions;
@@ -67,6 +68,9 @@ namespace Fuzzyminds.ResumeAspNet
                   .SelectAllClasses() // Retrieve all non-abstract classes
                   .BindDefaultInterfaces(); // Binds the default interface to them;
             });
+            //we only want one of these really
+            kernel.Rebind<IResumeService>().To<JsonDocumentResumeService>();
+
         }
     }
 }

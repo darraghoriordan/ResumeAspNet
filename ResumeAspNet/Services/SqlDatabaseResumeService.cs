@@ -1,24 +1,21 @@
-﻿using System;
-using System.EnterpriseServices;
-using System.Linq;
+﻿using System.Linq;
 using Fuzzyminds.ResumeAspNet.Models;
 using Fuzzyminds.ResumeAspNet.ResumeDto;
 using System.Data.Entity;
 
 namespace Fuzzyminds.ResumeAspNet.Services
 {
-    public class ResumeService : IResumeService
+    public class SqlDatabaseResumeService : IResumeService
     {
         private readonly ApplicationDbContext _dbContext;
 
-        public ResumeService(ApplicationDbContext dbContext)
+        public SqlDatabaseResumeService(ApplicationDbContext dbContext)
         {
             _dbContext = dbContext;
         }
 
         public ResumeRecord GetResume()
         {
-
             ResumeRecord rp = _dbContext.ResumeRecords
                 .Include(r=> r.PhoneNumber)
                 .Include(r=> r.Interests)

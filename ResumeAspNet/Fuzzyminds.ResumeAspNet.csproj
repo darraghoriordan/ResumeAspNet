@@ -411,6 +411,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="IJsonFileIoProvider.cs" />
+    <Compile Include="JsonFileIOProvider.cs" />
     <Compile Include="Migrations\201611220739378_init.cs" />
     <Compile Include="Migrations\201611220739378_init.Designer.cs">
       <DependentUpon>201611220739378_init.cs</DependentUpon>
@@ -459,7 +461,8 @@
     <Compile Include="ResumeDto\ResumeRecord.cs" />
     <Compile Include="ResumeDto\SkillRecord.cs" />
     <Compile Include="Services\IResumeService.cs" />
-    <Compile Include="Services\ResumeService.cs" />
+    <Compile Include="Services\JsonDocumentResumeService.cs" />
+    <Compile Include="Services\SqlDatabaseResumeService.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -479,6 +482,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="jsonModel.json" />
     <None Include="Properties\PublishProfiles\DarraghResume - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />

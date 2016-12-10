@@ -32,7 +32,7 @@ namespace Tests
             
             var dbContextMock = new Mock<ApplicationDbContext>();
             dbContextMock.Setup(dbc => dbc.ResumeRecords).Returns(mockSet.Object);
-            var resumeService = new ResumeService(dbContextMock.Object);
+            var resumeService = new SqlDatabaseResumeService(dbContextMock.Object);
             var result = resumeService.GetResume();
             result.Should().NotBeNull();
             result.Name.ShouldBeEquivalentTo(testName);

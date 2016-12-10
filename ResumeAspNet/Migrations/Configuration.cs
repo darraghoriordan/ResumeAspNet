@@ -1,7 +1,11 @@
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.IO;
+using System.Security.AccessControl;
+using System.Threading;
 using Fuzzyminds.ResumeAspNet.Models;
 using Fuzzyminds.ResumeAspNet.ResumeDto;
+using Owin.Security.Providers.EVEOnline;
 
 namespace Fuzzyminds.ResumeAspNet.Migrations
 {
@@ -258,6 +262,7 @@ Additional Activities
             });
             context.ResumeRecords.Add(resume);
             context.SaveChanges();
+          
         }
     }
 }
