@@ -1,4 +1,4 @@
-﻿namespace Fuzzyminds.ResumeAspNet
+﻿namespace Fuzzyminds.ResumeAspNet.Services
 {
     public interface IJsonFileIoProvider
     {

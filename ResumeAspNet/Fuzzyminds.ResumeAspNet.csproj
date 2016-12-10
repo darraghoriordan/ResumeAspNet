@@ -411,8 +411,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="IJsonFileIoProvider.cs" />
-    <Compile Include="JsonFileIOProvider.cs" />
+    <Compile Include="Services\IJsonFileIoProvider.cs" />
+    <Compile Include="Services\JsonFileIOProvider.cs" />
     <Compile Include="Migrations\201611220739378_init.cs" />
     <Compile Include="Migrations\201611220739378_init.Designer.cs">
       <DependentUpon>201611220739378_init.cs</DependentUpon>

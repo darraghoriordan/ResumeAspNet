@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Fuzzyminds.ResumeAspNet
+namespace Fuzzyminds.ResumeAspNet.Services
 {
     /// <summary>
     /// This helps makes the json provider testable by moving the static 
