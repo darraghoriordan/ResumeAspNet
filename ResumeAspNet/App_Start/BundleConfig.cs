@@ -24,7 +24,7 @@ namespace Fuzzyminds.ResumeAspNet
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                      
-                   //   "~/Content/bootstrap.css",
+                     "~/Content/bootstrap.css",
                        "~/Content/wordpressthemecss.css",
                       "~/Content/site.css"
                       ));
