@@ -1,9 +1,9 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Darragh Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>@ViewBag.Title - Fuzzyminds</title>
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
@@ -34,13 +34,14 @@
                                 <li>@Html.RouteLink("Blog", "Blog")</li>
                                 <li>@Html.RouteLink("Contact", "Contact")</li>
 
-                                @Html.Partial("_LoginPartial") </ul>
+                                @Html.Partial("_LoginPartial")
+                            </ul>
                         </div>
                     </nav><!-- .main-navigation -->
                 </div><!-- .site-menu -->
             </div><!-- .site-header-wrapper -->
         </header>
-       
+
         <div class="container body-content">
             @RenderBody()
             <hr />
@@ -49,29 +50,29 @@
             </footer>
         </div>
     </div>
-@Scripts.Render("~/bundles/jquery")
-@Scripts.Render("~/bundles/bootstrap")
-@RenderSection("scripts", required: false)
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
 
-<script>
-    masthead = $('#masthead');
-    menuToggle = masthead.find('#menu-toggle');
-    siteMenu = masthead.find('#site-menu');
-    siteNavigation = masthead.find('#site-navigation');
+    <script>
+        masthead = $('#masthead');
+        menuToggle = masthead.find('#menu-toggle');
+        siteMenu = masthead.find('#site-menu');
+        siteNavigation = masthead.find('#site-navigation');
 
-    // Enable menuToggle.
-    (function () {
+        // Enable menuToggle.
+        (function () {
 
-        // Return early if menuToggle is missing.
-        if (!menuToggle.length) {
-            return;
-        }
+            // Return early if menuToggle is missing.
+            if (!menuToggle.length) {
+                return;
+            }
 
-        menuToggle.on('click', function () {
-            $(this).add(siteMenu).add(siteNavigation).toggleClass('toggled-on');
+            menuToggle.on('click', function () {
+                $(this).add(siteMenu).add(siteNavigation).toggleClass('toggled-on');
 
-        });
-    })();
-</script>
+            });
+        })();
+    </script>
 </body>
 </html>

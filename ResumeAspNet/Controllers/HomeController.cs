@@ -17,6 +17,7 @@ namespace Fuzzyminds.ResumeAspNet.Controllers
 
         public ActionResult Index()
         {
+            ViewBag.Title = "Home";
             return View();
         }
 
@@ -40,19 +41,22 @@ namespace Fuzzyminds.ResumeAspNet.Controllers
 
         public ActionResult Portfolio()
         {
+            ViewBag.Title = "Portfolio";
             return View();
         }
         public ActionResult About()
         {
+            ViewBag.Title = "About";
             return View();
         }
         public ActionResult Contact()
         {
+            ViewBag.Title = "Contact";
             return View();
         }
         public ActionResult Resume()
         {
-            ViewBag.Title = "Darragh's Resume";
+            ViewBag.Title = "Resume";
             return View(_resumeService.GetResume());
         }
 

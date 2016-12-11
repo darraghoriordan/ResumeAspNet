@@ -23,7 +23,7 @@ namespace Fuzzyminds.ResumeAspNet
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                     
+
                      "~/Content/bootstrap.css",
                        "~/Content/wordpressthemecss.css",
                       "~/Content/site.css"
