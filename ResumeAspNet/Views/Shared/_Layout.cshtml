@@ -4,14 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Darragh Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
 
 </head>
 <body>
     <nav class="navbar navbar-default">
-        <div class="container-fluid">
+        <div class="container-fluid site-header-container">
             <div class="navbar-header">
                 <h1 class="site-title">@Html.ActionLink("Fuzzyminds", "Index", "Home")</h1>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#c-navbar-collapse" aria-expanded="false">
@@ -23,7 +24,7 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.RouteLink("About","About")</li>
+                    <li>@Html.RouteLink("About", "About")</li>
                     <li>@Html.RouteLink("Portfolio", "Portfolio")</li>
                     <li>@Html.RouteLink("Resume", "Resume")</li>
                     <li>@Html.RouteLink("Blog", "Blog")</li>
