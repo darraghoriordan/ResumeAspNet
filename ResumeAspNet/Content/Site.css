@@ -21,7 +21,7 @@ a {
     display: table;
     table-layout: fixed;
     height: 100%;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .col-height {
@@ -31,6 +31,10 @@ a {
 }
 
 .c-skills__title {
+    margin: .25em;
+}
+
+.c-skills__title-container {
     padding: .25em;
     border-top: 1px solid rgba(49,49,49,0.1);
     border-bottom: 1px solid rgba(49,49,49,0.1);
@@ -40,7 +44,17 @@ a {
     border-right: 1px solid rgba(49,49,49,0.1);
     border-bottom: 1px solid rgba(49,49,49,0.1);
 }
-
+.c-skills__header {
+        margin-top: 1em;
+    font-size: 1.25em;
+    text-align: center;
+}
+.c-skills__description {
+    font-size: 1rem;
+}
+.c-skills-skill-last {
+    border-right: none;
+}
 .site-header-wrapper {
     flex-wrap: wrap;
 }
@@ -79,4 +93,7 @@ a {
     margin-top: 1em;
     margin-left: 0.5em;
     margin-right: 0.5em;
+}
+.c-body-content {
+    margin-top: 1rem;
 }
