@@ -30,7 +30,7 @@ namespace Fuzzyminds.ResumeAspNet.Controllers
                 case "github":
                      return Redirect("http://github.com/darraghoriordan");
                 case "blog":
-                    return Redirect("http://fuzzyminds.tech.blog");
+                    return Redirect("https://darraghoriordan.wordpress.com/");
                 case "linkedin":
                     return Redirect("https://nz.linkedin.com/in/darraghoriordan");
 
