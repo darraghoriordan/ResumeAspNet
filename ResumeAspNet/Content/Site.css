@@ -58,7 +58,10 @@ a {
 .site-header-wrapper {
     flex-wrap: wrap;
 }
-
+.c-title__h1 {
+    margin-top: 0.2em;
+    font-size: 3.0625rem;
+}
 .c-jumbo-message__h1 {
     margin-top: 0.2em;
     font-size: 5em;
