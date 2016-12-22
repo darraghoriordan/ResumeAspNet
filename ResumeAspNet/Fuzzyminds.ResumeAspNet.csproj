@@ -487,6 +487,11 @@
     <Content Include="images\2000px-Blackberry_Logo100.png" />
     <Content Include="images\Logo_Bauer_Media_Group_2012.png" />
     <Content Include="images\Logo_Bauer_Media_Group_2012100.png" />
+    <Content Include="images\MeImages\dapper.png" />
+    <Content Include="images\MeImages\in_marlborough.jpg" />
+    <Content Include="images\MeImages\sunset_paddle.jpg" />
+    <Content Include="images\MeImages\dapper.jpg" />
+    <Content Include="images\MeImages\MountainTop.jpg" />
     <Content Include="images\trademe_logo_new.png" />
     <Content Include="images\trademe_logo_new100.png" />
     <Content Include="images\zenith-logo.png" />
