@@ -4,10 +4,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>@ViewBag.Title - Darragh ORiordan</title>
+    <meta name="title" content="@ViewBag.Title - Darragh ORiordan"/>
+    <meta name="description" content="I&#x27;m a .Net developer and people leader living in Auckland,
+            New Zealand. I like helping people.
+            I like solving problems.
+            I love using iterative development and data driven decisions to make better things." />
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-    
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="@ViewBag.Title - Darragh ORiordan" />
+    <meta property="og:url" content="@HttpContext.Current.Request.Url" />
+    <meta property="og:site_name" content="{{ darraghoriordan }}" />
+    <meta property="og:locale" content="en_US" />
 </head>
 <body>
     <div id="page" class="site">
