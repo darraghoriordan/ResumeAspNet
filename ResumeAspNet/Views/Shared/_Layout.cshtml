@@ -25,7 +25,7 @@
                 <div class="site-branding">
 
                     <h1 class="site-title">
-                        <a href="https://www.darraghoriordan.com/" rel="home">&#123;&#123; darraghoriordan.com &#125;&#125;</a>
+                        @Html.ActionLink("{{ darraghoriordan.com }}", "Index", "Home", null, new {rel="home"})
                     </h1>
                     <p class="site-description"></p>
                 </div><!-- .site-branding -->
@@ -36,11 +36,11 @@
                         <div class="menu-primary-container">
                             <ul id="menu-primary" class="primary-menu">
                                 <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                                <li>@Html.RouteLink("About", "About")</li>
-                                <li>@Html.RouteLink("Portfolio", "Portfolio")</li>
-                                <li>@Html.RouteLink("Resume", "Resume")</li>
+                                <li>@Html.ActionLink("About", "About", "Home")</li>
+                                <li>@Html.ActionLink("Portfolio", "Portfolio", "Home")</li>
+                                <li>@Html.ActionLink("Resume", "Resume", "Home")</li>
                                 <li>@Html.RouteLink("Blog", "Blog")</li>
-                                <li>@Html.RouteLink("Contact", "Contact")</li>
+                                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
 
                           
                             </ul>
