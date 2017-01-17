@@ -1,15 +1,23 @@
 ﻿using System.Threading.Tasks;
+using System.Web.Helpers;
 using System.Web.Http;
+using Fuzzyminds.ResumeAspNet.ResumeDto;
+using Fuzzyminds.ResumeAspNet.Services;
 
 namespace Fuzzyminds.ResumeAspNet.Controllers.Api
 {
-   
     public class ResumeController : ApiController
     {
-        // yea yea not at all async yet!
-        public async Task<string> Get()
+        private readonly IResumeService _resumeService;
+
+        public ResumeController(IResumeService resumeService)
         {
-            return "Darragh's resume";
+            _resumeService = resumeService;
+        }
+
+        public async Task<ResumeRecord> Get()
+        {
+            return await _resumeService.GetResume();
         }
     }
 }

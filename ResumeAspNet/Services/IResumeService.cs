@@ -1,9 +1,9 @@
-﻿using Fuzzyminds.ResumeAspNet.ResumeDto;
-
+﻿using System.Threading.Tasks;
+using Fuzzyminds.ResumeAspNet.ResumeDto;
 namespace Fuzzyminds.ResumeAspNet.Services
 {
     public interface IResumeService
     {
-        ResumeRecord GetResume();
+        Task<ResumeRecord> GetResume();
     }
 }

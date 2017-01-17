@@ -17,14 +17,15 @@ namespace Fuzzyminds.ResumeAspNet.Controllers
 
         public ActionResult Index()
         {
-            ViewBag.Title = "Home";
-            return View();
+            return ExternalRedirect("darraghoriordan");
         }
 
         public ActionResult ExternalRedirect(string name)
         {
             switch (name)
             {
+                case "darraghoriordan":
+                    return Redirect("https://www.darraghoriordan.com/");
                 case "bitbucket":
                     return Redirect("https://bitbucket.org/darragh/");
                 case "github":
@@ -37,35 +38,6 @@ namespace Fuzzyminds.ResumeAspNet.Controllers
                 default:
                     return new HttpNotFoundResult();
             }
-        }
-
-        public ActionResult Portfolio()
-        {
-            ViewBag.Title = "Portfolio";
-            return View();
-        }
-        public ActionResult About()
-        {
-            ViewBag.Title = "About";
-            return View();
-        }
-        public ActionResult Contact()
-        {
-            ViewBag.Title = "Contact";
-            return View();
-        }
-        public ActionResult Resume()
-        {
-            ViewBag.Title = "Resume";
-            return View(_resumeService.GetResume());
-        }
-
-        public ActionResult WriteToFile()
-        {
-            var sdb = new SqlDatabaseResumeService(new ApplicationDbContext());
-            (_resumeService as JsonDocumentResumeService).WriteResume(sdb.GetResume());
-
-            return new HttpStatusCodeResult(HttpStatusCode.OK);
         }
     }
 }

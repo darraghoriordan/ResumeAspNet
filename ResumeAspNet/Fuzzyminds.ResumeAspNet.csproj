@@ -78,6 +78,10 @@
       <HintPath>..\packages\Ninject.MVC5.3.2.1.0\lib\net45-full\Ninject.Web.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Ninject.Web.WebApi, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.Web.WebApi.3.2.4.0\lib\net45-full\Ninject.Web.WebApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Owin.Security.Providers.ArcGISOnline, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Owin.Security.Providers.ArcGISOnline.2.11.0\lib\net45\Owin.Security.Providers.ArcGISOnline.dll</HintPath>
       <Private>True</Private>
@@ -462,7 +466,6 @@
     <Compile Include="ResumeDto\SkillRecord.cs" />
     <Compile Include="Services\IResumeService.cs" />
     <Compile Include="Services\JsonDocumentResumeService.cs" />
-    <Compile Include="Services\SqlDatabaseResumeService.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>

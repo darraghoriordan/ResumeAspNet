@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace Fuzzyminds.ResumeAspNet.Services
 {
@@ -9,22 +10,17 @@ namespace Fuzzyminds.ResumeAspNet.Services
     /// </summary>
     public class JsonFileIoProvider : IJsonFileIoProvider
     {
-        public string GetFileContents()
+        public async Task<string> GetFileContents()
         {
-            return File.ReadAllText(GetJsonFilePath());
-        }
-
-        public void WriteFileContents(string resume)
-        {
-            if (File.Exists(GetJsonFilePath()))
-                File.Delete(GetJsonFilePath());
-
-            File.WriteAllText(GetJsonFilePath(),resume);
+            using (StreamReader sourceReader = File.OpenText(GetJsonFilePath()))
+            {
+                return await sourceReader.ReadToEndAsync();
+            }
         }
 
         public string GetJsonFilePath()
         {
-          return  Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "jsonModel.json");
+            return Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "jsonModel.json");
         }
     }
 }

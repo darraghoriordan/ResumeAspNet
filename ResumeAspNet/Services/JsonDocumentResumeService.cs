@@ -1,5 +1,5 @@
-﻿using Fuzzyminds.ResumeAspNet.ResumeDto;
-using Newtonsoft.Json;
+﻿using System.Threading.Tasks;
+using Fuzzyminds.ResumeAspNet.ResumeDto;
 
 namespace Fuzzyminds.ResumeAspNet.Services
 {
@@ -13,22 +13,12 @@ namespace Fuzzyminds.ResumeAspNet.Services
             _jsonFileIoProvider = jsonFileIoProvider;
         }
 
-        public void WriteResume(ResumeRecord resume)
-        {
-            _jsonFileIoProvider.WriteFileContents(Newtonsoft.Json.JsonConvert.SerializeObject(resume,
-                Formatting.Indented,
-                new JsonSerializerSettings
-                {
-                    ReferenceLoopHandling = ReferenceLoopHandling.Ignore
-                }));
-        }
-
-        public ResumeRecord GetResume()
+        public async Task<ResumeRecord> GetResume()
         {
             if (this._resumeRecord == null)
             {
-                var jsonResume = _jsonFileIoProvider.GetFileContents();
-                this._resumeRecord = Newtonsoft.Json.JsonConvert.DeserializeObject<ResumeRecord>(jsonResume);
+                var jsonResume = await _jsonFileIoProvider.GetFileContents();
+                this._resumeRecord =Newtonsoft.Json.JsonConvert.DeserializeObject<ResumeRecord>(jsonResume);
             }
             return _resumeRecord;
         }
